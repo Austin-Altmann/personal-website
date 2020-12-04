@@ -91,8 +91,6 @@ a:hover {
 		background-position: center center;
 		background-repeat: no-repeat;
 		height: 40vh;
-		min-width: calc(70%);
-		max-width: calc(100% - 700px);
 	}
 
 	.navigation-button {
