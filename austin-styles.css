@@ -86,13 +86,17 @@ a:hover {
 
 	.austinPicture {
 		background: url("./images/dog.jpg");
+		background-size: 300px 300px;
+		border: none;
 		background-position: center center;
-		height: 70vh;
+		background-repeat: no-repeat;
+		height: 40vh;
 		min-width: calc(70%);
 		max-width: calc(100% - 700px);
 	}
 
 	.navigation-button {
 		font-size: 20px;
+		margin: 1vh;
 	}
 }
