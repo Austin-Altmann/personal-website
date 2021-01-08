@@ -43,6 +43,19 @@ a:hover {
 	max-width: calc(100% - 400px);
 }
 
+.computerPicture {
+  border: 1vh solid DimGray;
+  margin-left: auto;
+  margin-right: auto;
+  background: url("./images/computers-in-trunk.jpg");
+  background-position: center left;
+  background-repeat: no-repeat;
+  background-size: cover;
+	height: 60vh;
+	min-width: calc(90%);
+	max-width: calc(100% - 400px);
+}
+
 #welcome-text {
 	margin: 0.5vh;
   padding: 0.5vh;
@@ -52,6 +65,18 @@ a:hover {
 	outline-width: medium;
 	outline-color: black;
   white-space: nowrap;
+	text-align: center;
+}
+
+#computer-message {
+	margin: 0.5vh;
+  padding: 0.5vh;
+  font-size: 24px;
+  font-family: Comic Sans MS, Comic Sans;
+	color: white;
+	outline-width: medium;
+	outline-color: black;
+  white-space: normal;
 	text-align: center;
 }
 
