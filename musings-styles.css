@@ -1,0 +1,104 @@
+body {
+	margin: 0;
+    padding: 0;
+	min-width: 300px;
+    overflow-x: hidden;
+	background-color: #008080;
+    font-family: Comic Sans MS, Comic Sans;
+}
+
+.outer {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.left {
+    grid-column: 1;
+    border-right: 2px solid black;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-template-areas:
+        "buttons"
+        "musings";
+    height: 100vh;
+}
+
+.right {
+    grid-column: 2;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-template-areas:
+        "title"
+        "article";
+    height: 100vh;
+}
+
+.navigation {
+    grid-area: buttons;
+    text-align: center;
+    border-bottom: 2px solid black;
+    background-color:#dfe300;
+}
+
+#home {
+    font-size: 20px;
+    margin: 10px;
+}
+
+.articles {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+    background-color: #208c71;
+}
+
+.title {
+    grid-area: title;
+    text-align: center;
+    border-bottom: 2px solid black;
+    background-color: #6c6c6c;
+}
+
+#musing-title {
+    margin: 10px;
+    font-size: 38px;
+    color: white;
+}
+
+.document {
+    grid-area: article;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+#page {
+    width: 80vw;
+    height: 90%;
+}
+
+a {
+    color: white;
+}
+
+@media (max-width: 650px) {
+    #musing-title {
+        margin: 10px;
+        font-size: 24px;
+        color: white;
+    }
+
+    #home {
+        font-size: 14px;
+        margin: 10px;
+    }
+
+    .articles {
+        font-size: 14px;
+        padding-top: 10px;
+    }
+  }
