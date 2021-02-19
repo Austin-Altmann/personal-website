@@ -10,23 +10,26 @@
 	<div class="outer">
 		<div class="left">
 			<div class="navigation">
-				<button id="home" type="button">Home</button>
+				<input id="home" type="button" value="Home" onclick="window.location.href = 'https://www.austinaltmann.com'" />
 			</div>
 			<div class="articles">
 				<p class="sections">Musings</p>
-				<a class="link" href = "/musings/placeholder.html">Placeholder</a>
+				<button id="macintosh-se" class="link" onclick="ShowMusing('macintosh-se.html', 'Macintosh SE')">Macintosh SE</button>
+
 				<p class="sections">Components</p>
-				<a class="link" href = "/musings/placeholder.html">Macintosh SE</a>
+				<button id="m0116" class="link" onclick="ShowComponent('apple-m0116-keyboard.html', 'Apple M0166 Keyboard')">Apple M0116 Keyboard</button>
+				<button id="a9m0331" class="link" onclick="ShowComponent('apple-a9m0331-mouse.html', 'Apple A9M0331 Mouse')">Apple A9M0331 Mouse</button>
 			</div>
 		</div>
 		<div class="right">
 			<div class="title">
-				<p id="musing-title">Placeholder!</p>
+				<p id="musing-title">Macintosh SE</p>
 			</div>
 			<div class="document">
-				<iframe id="page" frameBorder="0" src="./musings/placeholder.html" title="Placeholder"></iframe>
+				<iframe id="page" frameBorder="0" src="./musings/macintosh-se.html" title="Placeholder"></iframe>
 			</div>
 		</div>
 	</div>
 	</body>
+	<script src="./scripts/musings.js"></script>
 </html>
