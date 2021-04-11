@@ -9,7 +9,7 @@ body {
 
 .outer {
     display: grid;
-    grid-template-columns: 1fr 5fr;
+    grid-template-columns: auto 1fr;
     grid-template-rows: 1fr;
     justify-content: center;
     width: 100%;
@@ -26,6 +26,7 @@ body {
         "musings";
     height: 100vh;
     background-color: #208c71;
+    float: left;
 }
 
 .right {
@@ -52,10 +53,10 @@ body {
 
 .link {
     font-size: 16px;
-    margin: 10px;
     background-color: #dfe300;
     border-radius: 12px;
     margin: 10px 6px;
+    display: block;
 }
 
 .articles {
