@@ -1,26 +1,39 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>Austin Altmann</title>
 	<link rel="icon" type="image/png" href="images/face.png">
 	<link rel="stylesheet" type="text/css" href="austin-styles.css">
 	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+	<meta charset="utf-8" />
 </head>
-	<body>
+
+<body>
 	<div class="outer">
 		<div class="middle">
 			<div class="inner">
-					<p id="welcome-text">Welcome to my website!</p>
+				<div id="banner" onclick="ShowAnnouncement()"></div>
 
-					<div id="centerpiece" class="austinPicture"></div>
+				<p id="welcome-text">Welcome to my website!</p>
 
-					<nav class='navigation'>
-						<a class='navigation-button' href="./musings.html">My Musings</a>
-						<a class='navigation-button' href="https://www.linkedin.com/in/austin-altmann-236b05110/">My LinkedIn</a>
-						<a class='navigation-button' href="https://github.com/Austin-Altmann">My GitHub</a>
-					</nav>
+				<div id="centerpiece" class="austinPicture"></div>
+
+				<nav class='navigation'>
+					<div class="navigation-image" id="musings" onclick="NavigateToPage('./musings.html')"></div>
+					<div class="navigation-image" id="linkedin" onclick="NavigateToPage('https://www.linkedin.com/in/austin-altmann-236b05110/')"></div>
+					<div class="navigation-image" id="github" onclick="NavigateToPage('https://github.com/Austin-Altmann')"></div>
+					<div class="navigation-image" id="dinosaur" onclick="NavigateToPage('./images/clipart/triceratops.png')"></div>
+				</nav>
+
+				<div id="counter-section">
+					<p class="counter-text">thx for being visitor number</p>
+					<img id="counter" src="images/counter.jpg" />
+				</div>
 			</div>
 		</div>
 	</div>
-	</body>
+	<script src="./scripts/home.js"></script>
+</body>
+
 </html>
