@@ -14,7 +14,7 @@ body {
 	background-repeat: no-repeat;
 	background-size: contain;
 	width: 100%;
-	height: 200px;
+	height: 14vh;
 }
 
 .navigation {
@@ -25,9 +25,8 @@ body {
 }
 
 .navigation-image {
-	width: 10vw;
-	min-width: 150px;
-	height: 200px;
+	width: 14vw;
+	height: 12vh;
 	display: inline-block;
 }
 
@@ -92,7 +91,7 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	padding: 0.5vh;
-	font-size: 60px;
+	font-size: 6vh;
 	font-family: Comic Sans MS, Comic Sans;
 	color: white;
 	outline-width: medium;
@@ -128,14 +127,13 @@ body {
 #counter {
 	margin-left: auto;
 	margin-right: auto;
-	width: 8vw;
-	min-width: 200px;
+	height: 4vh;
 }
 
 .counter-text {
 	margin-left: auto;
 	margin-right: auto;
-	font-size: 20px;
+	font-size: 2vh;
 	font-family: Comic Sans MS, Comic Sans;
 	color: white;
 }
@@ -144,13 +142,15 @@ body {
 	.inner {
 		width: 100vw;
 	}
+
 	#welcome-text {
-		font-size: 48px;
 		white-space: pre-wrap;
 		animation-name: text-flash-1;
   		animation-duration: 4s;
 		animation-iteration-count:infinite;
+		font-size: 4vh;
 	}
+
 	.austinPicture {
 		background: url("./images/dog.jpg");
 		background-size: 300px 300px;
@@ -160,9 +160,21 @@ body {
 		height: 40vh;
 	}
 
+	#banner {
+		height: 10vh;
+	}
+
 	.navigation-image {
-		width: 225px;
-		height: 200px;
+		width: 17vw;
+		height: 12vh;
 		display: inline-block;
+	}
+
+	#counter {
+		height: 3vh;
+	}
+	
+	.counter-text {
+		font-size: 2vh;
 	}
 }
