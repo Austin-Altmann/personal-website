@@ -20,8 +20,6 @@ body {
 .navigation {
 	margin-top: 2vh;
 	display: inline-block;
-	justify-content: center;
-	align-items: center;
 }
 
 .navigation-image {
@@ -34,24 +32,28 @@ body {
 	background: url("./images/clipart/musings.png");
 	background-size: contain;
 	background-repeat: no-repeat;
+	background-position: center center;
 }
 
 #github {
 	background: url("./images/clipart/github.png");
 	background-size: contain;
 	background-repeat: no-repeat;
+	background-position: center center;
 }
 
 #linkedin {
 	background: url("./images/clipart/linkedin.png");
 	background-size: contain;
 	background-repeat: no-repeat;
+	background-position: center center;
 }
 
 #dinosaur {
 	background: url("./images/clipart/dinosaur.png");
 	background-size: contain;
 	background-repeat: no-repeat;
+	background-position: center center;
 }
 
 .austinPicture {
